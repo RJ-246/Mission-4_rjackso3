@@ -1,0 +1,27 @@
+﻿<Properties StartupConfiguration="{5F963A64-7208-43F0-9B10-9D004FD8737C}|Default">
+  <MonoDevelop.Ide.ItemProperties.Mission04__rjackso3 PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Mission04_rjackso3/Program.cs">
+    <Files>
+      <File FileName="Mission04_rjackso3/Startup.cs" Line="9" Column="7" />
+      <File FileName="Mission04_rjackso3/Program.cs" Line="1" Column="1" />
+      <File FileName="Mission04_rjackso3/index.html" Line="8" Column="16" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Mission04_rjackso3" expanded="True">
+            <Node name="Mission04_rjackso3" expanded="True">
+              <Node name="wwwroot" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MultiItemStartupConfigurations />
+</Properties>
