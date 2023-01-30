@@ -23,20 +23,7 @@ namespace Mission04_rjackso3
         {
             app.UseDefaultFiles();
             app.UseStaticFiles();
-            if (env.IsDevelopment())
-            {
-                app.UseDeveloperExceptionPage();
-            }
-
-            app.UseRouting();
-
-            app.UseEndpoints(endpoints =>
-            {
-                endpoints.MapGet("/", async context =>
-                {
-                    await context.Response.WriteAsync("Hello World!");
-                });
-            });
+            
         }
     }
 }

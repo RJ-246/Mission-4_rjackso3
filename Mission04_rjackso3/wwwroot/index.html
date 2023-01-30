@@ -2,9 +2,60 @@
 <html>
 <head>
     <meta charset="utf-8" />
-    <title>test</title>
+    <title>Grade Calculator</title>
+    <link rel="icon" type="image/x-icon" href="/img/favicon.ico"/>
+
+    <link href="lib/bootstrap.min.css" rel="stylesheet" />
+    <link href="CSS/custom.css" rel="stylesheet"
 </head>
 <body>
-    <h1>welcome</h1>
+    <h1>Ryan</h1>
+    <img src="/img/IMG_0107.JPG"/>
+    <br />
+    <p>
+        IS413 will be my first experience with a strongly typed language.  I'm hoping to learn how to work with and be comfortable in a strongly-typed environment.
+        I'm also hoping that I'll improve my general programming skills as I practice applying things I've learned in other languages into C#.
+    </p>
+    <ul>
+        Top 3 Jobs I'm interested in:
+        <li>Cybersecurity</li>
+        <li>Database Administration</li>
+        <li>Development</li>
+    </ul>
+
+  <!--Calculator Form-->
+    <form>
+        <h3>Grade Calculator</h3>
+        <p>Enter your final percentage for each category:</p>
+        <label>Assignments: </label>
+        <input id="assignments" type="number" min="0" max="100" />
+        <br /><br />
+        <label>Group Project: </label>
+        <input id="groupProj" type="number" min="0" max="100" />
+        <br /><br />
+        <label>Quizzes: </label>
+        <input id="quizzes" type="number" min="0" max="100" />
+        <br /><br />
+        <label>Midterm Exam: </label>
+        <input id="midterm" type="number" min="0" max="100" />
+        <br /><br />
+        <label>Final Exam: </label>
+        <input id="finalExam" type="number" min="0" max="100" />
+        <br /><br />
+        <label>INTEX: </label>
+        <input id="intex" type="number" min="0" max="100" />
+        <br /><br />
+        <button id="calcGrade" type="button">Calculate</button>
+        <br /><br />
+        <label>Final Grade: </label>
+        <p id="finalGrade"></p>
+    </form>
+
+    <!--Scripts-->
+<script src="lib/bootstrap.min.js"></script>
+<script src="lib/jquery-3.6.3.min.js"></script>
+<script src="js/functionality.js"></script>
+
+
 </body>
 </html>
