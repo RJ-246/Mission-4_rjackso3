@@ -9,9 +9,10 @@
     let finalExam = $("#finalExam").val();
     let intex = $("#intex").val();
 
-
+    //Calculates weighted final grade
     finalGrade = ((assignments * .5) + (groupProj * .1) + (quizzes * .1) + (midterm * .1) + (finalExam * .1) + (intex * .1));
 
+    //Assigns letter grade based on final grade
     let letterGrade = "";
     if (finalGrade >= 94) {
         letterGrade = "A";
