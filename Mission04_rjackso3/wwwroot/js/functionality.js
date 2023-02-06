@@ -41,4 +41,5 @@
     }
 
     $("#finalGrade").html(letterGrade);
+    alert(letterGrade);
 })
