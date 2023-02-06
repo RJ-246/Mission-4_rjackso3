@@ -17,12 +17,14 @@ namespace Mission04_rjackso3.Controllers
             return View();
         }
 
+        //Method for get requests
         [HttpGet]
         public IActionResult GradeCalc()
         {
             return View();
         }
 
+        //Method for post requests
         [HttpPost]
         public IActionResult GradeCalc(GradeCalcModel model)
         {

@@ -41,5 +41,6 @@
     }
 
     $("#finalGrade").html(letterGrade);
+    // Alerts the Letter grade
     alert(letterGrade);
 })
